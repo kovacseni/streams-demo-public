@@ -15,7 +15,6 @@ public class Order {
     public Order(String status, LocalDate orderDate) {
         this.status = status;
         this.orderDate = orderDate;
-
     }
 
     public void addProduct(Product product) {
